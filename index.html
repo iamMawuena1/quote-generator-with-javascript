@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!------google fonts----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!-----favicon-->
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <!-----css styling link-->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    <title>Quote Generator</title>
+</head>
+<body>
+    <div class="quote-container" id="quote-container">
+        <!-------quote------------>
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote">Connect to the internet to access other quotes</span>
+        </div>
+        <!------author------->
+        <div class="quote-author">
+            <span id="author">numba9</span>
+        </div>
+        <!----buttons-------->
+        <div class="button-container">
+            <button class="tweet-button" id="tweet-button" title="Click to share!"><i class="fab fa-twitter"></i></button>
+            <button id="new-quote">New Quote</button>
+        </div>
+    </div>
+    <!---loader---->
+    <div class="loader" id="loader">
+
+    </div>
+
+    <!------script-->
+    <script src="main.js"></script>
+</body>
+</html>
